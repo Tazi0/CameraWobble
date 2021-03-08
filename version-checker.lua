@@ -18,7 +18,7 @@ Citizen.CreateThread(function()
     end
     
     function VersionCheckHTTPRequest()
-        PerformHttpRequest('https://raw.githubusercontent.com/Tazi0/CameraWobble/main/version.json', VersionCheck, 'GET')
+        PerformHttpRequest('https://raw.githubusercontent.com/Tazi0/CameraWobble/master/version.json', VersionCheck, 'GET')
     end
     
     function VersionCheck(err, response, headers)
